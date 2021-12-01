@@ -21,10 +21,10 @@ page 50100 "Production Order API Endpoint"
                 {
                     Caption = 'Status';
                 }
-                // field(no; Rec."No.")
-                // {
-                //     Caption = 'No';
-                // }
+                field(no; Rec."No.")
+                {
+                    Caption = 'No';
+                }
             }
         }
     }
