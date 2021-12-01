@@ -1,1 +1,1 @@
-BcContainer -accept_eula -accept_outdated -containerName BC180 -artifactUrl (Get-BCArtifactUrl -type OnPrem -country dk -version 18.3) -updateHosts
+New-BcContainer -accept_eula -accept_outdated -containerName BC -artifactUrl (Get-BCArtifactUrl -type OnPrem) -updateHosts
